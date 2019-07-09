@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.page{
+	width: 100% !important;
+   background-image:url(33.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.row{
+	width: 100%;
+}
+.main-nav{
+	float: right;
+	list-style: none !important;
+	text-decoration: none !important;
+	
+}
+.main-nav li{
+	display: inline-block;
+	text-decoration: none !important;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none !important;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif ;
+	font-size: 15px;
+
+}
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+
+body{
+	font-family: monospace;
+
+}
+
+.hero{
+	position: all;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+
+.logo{
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 10px;
+	position: all;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+}
+
+	.button{
+		margin-top: 30px;
+		margin-left: 440px;
+	}
+.btn{
+	border: 1px solid white;
+	font-size: 15px;
+	padding: 10px 15px;
+	color: black;
+	text-decoration: solid;
+	text-transform: lowercase;
+}
+ul{
+	text-transform:uppercase;
+	font-size: 10px;
+}
+.btn-one{
+	background-color: darkorange;
+	font-family: "Roboto", sans-serif;
+
+}
+.btn-two{
+	font-family: "Roboto", sans-serif;
+}
+.btn-two:hover{
+	background-color: darkorange;
+	transition: all 0.5s ease-in;
+}
+.jumbotron{
+	background-color: transparent !important;
+	padding: 5% !important;
+}
+hr.my-4{
+	width: 20%;
+}
+.faqHeader{
+	font-size: 27px;
+	margin: 20px;
+}
+section.mb-4{
+	font-size: 15px;
+	margin: 20px;
+}
